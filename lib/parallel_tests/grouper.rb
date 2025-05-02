@@ -126,6 +126,7 @@ module ParallelTests
       end
 
       def group_features_by_size(items, groups_to_fill)
+        pp group_features_by_size_items: items
         items.each do |item, size|
           size ||= 1
           smallest = smallest_group(groups_to_fill)
