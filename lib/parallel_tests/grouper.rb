@@ -132,6 +132,7 @@ module ParallelTests
           smallest = smallest_group(groups_to_fill)
           add_to_group(smallest, item, size)
         end
+        pp group_features_by_size_result: groups_to_fill
       end
 
       def items_to_group(items)
